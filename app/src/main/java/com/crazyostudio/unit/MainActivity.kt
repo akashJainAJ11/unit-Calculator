@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                         val ans : Double = binding.input.text.toString().toDouble() * 2.20462262
                         binding.answer.text = ans.toFloat().toString()
                         }else if (binding.Spinner.selectedItemPosition.toString().equals("1")){
-                            val ans : Double = binding.input.text.toString().toDouble() /0.45359237
+                            val ans : Double = binding.input.text.toString().toDouble() * 0.45359237
                             binding.answer.text = ans.toFloat().toString()
                         }
                     else if (binding.Spinner.selectedItemPosition.toString().equals("2")){
